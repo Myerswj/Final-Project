@@ -210,3 +210,103 @@ img {
   background-position: 50% 90%;
   padding-bottom: 3rem;
 }
+
+/* DESKTOP Layout
+------------------------------------*/
+body {
+  background-color: #92a6b5;
+}
+
+.wrapper {
+   background-color: #f4f4f4;
+   border: 2px solid silver;
+   padding: 0 0 2rem 0;
+   box-shadow: 2px 2px 7px black;
+   margin: 1.5rem auto;
+   max-width: 1000px;
+}
+
+main {
+   margin: 1rem;
+   padding: 1rem;
+   border-radius: 2rem;
+   background-color: #cccccc;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery {
+   padding: 1rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 1rem;
+}
+
+.gallery img {
+   border: 2px solid black;
+   max-width: 100%;
+}
+
+
+/* TABLET Media Query
+------------------------------------*/
+@media (max-width: 799px) {
+
+  body {
+    background-color: darkslategray;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .box:last-of-type {
+    grid-column: span 2;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+
+/* PHONE Media Query
+------------------------------------*/
+@media (max-width: 499px) {
+  
+  body {
+    background-color: tan;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+
+  main {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-radius: 0;
+  }
+
+  .box {
+    border-radius: 2rem;
+    font-size: 160%;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    background-color: #585858;
+  }
+
+  .gallery img {
+    border-color: white;
+  }
+
+}
