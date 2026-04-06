@@ -1,0 +1,212 @@
+header {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  background-color: beige;
+  padding: 1em;
+  border-radius: 2em;
+  font-size: 85%;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+nav a {
+  padding: .5em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  background-color: orange;
+  border-radius: 2em;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+  font-size: 125%;
+  line-height: 1.4;
+  padding: 1rem;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/Background\ Top.jpg);
+  border: 1rem;
+  box-shadow: 0px 10px 15px grey;
+}
+
+header {
+  background-color: black;
+  padding: 1rem;
+  background-image: url(images/Background\ by\ One\ Peice.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+
+header h1{
+  color: white;
+  font-size: 150%;
+  margin-left: 4rem;
+}
+
+main {
+  padding: 1rem 2rem;
+  font-size: 125%;
+  line-height: 1.4;
+}
+
+main h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2em;
+}
+
+.product {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.news {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.victory-condition {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.what-is-in-a-deck {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.game-flow {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.game-flow {
+  grid-row: span 2;
+}
+
+.leader {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.character {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.event {
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.stage{
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
+
+.make-account{
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
