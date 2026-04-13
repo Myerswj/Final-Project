@@ -237,6 +237,7 @@ img {
   
   body {
     background-color: tan;
+    flex-direction: column;
   }
 
   .wrapper {
