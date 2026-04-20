@@ -206,3 +206,14 @@ main h2 {
   background-position: 50% 90%;
   padding-bottom: 3rem;
 }
+
+.account-app{
+  font-size: 90%;
+  background-color: beige;
+  padding: 1em;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 90%;
+  padding-bottom: 3rem;
+}
