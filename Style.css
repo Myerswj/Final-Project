@@ -80,10 +80,6 @@ main h2 {
   padding-bottom: 1rem;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .home-grid {
   display: grid;
@@ -99,7 +95,7 @@ img {
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: 50% 90%;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .news {
@@ -110,7 +106,7 @@ img {
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: 50% 90%;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .victory-condition {
@@ -149,7 +145,7 @@ img {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 1rem;
 }
 
 .game-flow {
@@ -209,62 +205,4 @@ img {
   background-size: 70%;
   background-position: 50% 90%;
   padding-bottom: 3rem;
-}
-
-@media (max-width: 799px) {
-
-  body {
-    background-color: darkslategray;
-  }
-
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .box:last-of-type {
-    grid-column: span 2;
-  }
-
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-
-}
-
-@media (max-width: 499px) {
-  
-  body {
-    background-color: tan;
-    flex-direction: column;
-  }
-
-  .wrapper {
-    margin: 0;
-  }
-
-  main {
-    margin: 0;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid black;
-    border-radius: 0;
-  }
-
-  .box {
-    border-radius: 2rem;
-    font-size: 160%;
-  }
-
-  .gallery {
-    grid-template-columns: 1fr;
-    background-color: #585858;
-  }
-
-  .gallery img {
-    border-color: white;
-  }
-
 }
