@@ -1,26 +1,31 @@
 header {
-  padding: 1em;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav {
   background-color: beige;
-  padding: 1em;
-  border-radius: 2em;
+  padding: 1rem;
+  border-radius: 2rem;
   font-size: 85%;
+  text-align: end;
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
   align-items: center;
 }
+
 nav a {
   padding: .5em 2em;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
 }
+
 nav a:hover {
   background-color: orange;
   border-radius: 2em;
@@ -53,19 +58,22 @@ body {
   box-shadow: 0px 10px 15px grey;
 }
 
-header {
-  background-color: black;
-  padding: 1rem;
-  background-image: url(images/Background\ by\ One\ Peice.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center left;
+.background-header {
+  background-image: url("images/Background\ Header.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
 }
 
 header h1{
-  color: white;
-  font-size: 150%;
-  margin-left: 5rem;
+  color: black;
+  font-size: 175%;
+  margin-right: 19rem;
 }
 
 main {
